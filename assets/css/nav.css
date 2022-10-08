@@ -7,7 +7,7 @@
 }
 
 :root {
-    --dark-blue: rgb(25, 26, 66);
+    --dark-blue: rgb(23, 24, 96);
     --beige: rgb(232, 225, 189);
     --white: rgb(253, 253, 255);
 }
@@ -34,7 +34,8 @@ body {
 
 .logo {
     font-size: 1.8rem;
-    font-weight: 800;    
+    font-weight: 800;  
+    color: var(--dark-blue);  
 }
 
 .logo-top {
