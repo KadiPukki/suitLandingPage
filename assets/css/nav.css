@@ -8,7 +8,9 @@
 
 :root {
     --dark-blue: rgb(9, 10, 37);
+    --grey: rgba(118, 118, 128, 0.925);
     --beige: rgb(248, 243, 220);
+    --light-beige: rgba(248, 243, 220, 0.925);
     --white: rgb(253, 253, 255);
 }
 
@@ -50,4 +52,6 @@ body {
     border-width: 1.5px;
     margin: 4vh 15vw auto auto;
 }
+
+
 
