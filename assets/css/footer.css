@@ -1,0 +1,23 @@
+footer {
+    width: 100%;
+    height: 40vh;
+    background-color: var(--beige);
+    display: flex;
+    flex-direction: row;
+    color: var(--dark-blue);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 0.8rem;
+}
+
+.social-media {
+    font-size: 1.2rem;
+}
+
+.social-media i {
+    padding: 1vw;
+    cursor: pointer;
+}

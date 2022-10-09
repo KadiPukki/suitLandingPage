@@ -1,0 +1,10 @@
+form {
+    width: 40%;
+    height: 30vh;
+    background-color: var(--beige);
+    border-color: var(--dark-blue);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    
+}
