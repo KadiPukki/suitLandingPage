@@ -53,5 +53,13 @@ body {
     margin: 4vh 15vw auto auto;
 }
 
+@media (max-width: 1024px) {
+
+    .btn {
+        font-size: 0.5rem;
+    }
+    
+}
+
 
 

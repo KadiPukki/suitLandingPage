@@ -64,3 +64,24 @@ main {
     font-size: 1rem;
     text-transform: uppercase;
 }
+
+@media (max-width: 1024px) {
+    main {
+        width: 100%;
+        gap: 10vw;
+    }
+
+    .text-1-header {
+        font-size: 2rem;
+        margin-bottom: 5vh;
+    }
+
+    .text-2 h3 {
+        font-size: 1.5rem;
+    }
+
+    .text-2 p {
+        font-size: 0.8rem;
+        text-transform: uppercase;
+    }
+}

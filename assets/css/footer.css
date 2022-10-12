@@ -21,3 +21,9 @@ footer {
     padding: 1vw;
     cursor: pointer;
 }
+
+@media (max-width: 850px) {
+    footer {
+        height: 30vh;
+    }
+}

@@ -47,3 +47,13 @@ section {
     padding: 0.8vh;
 }
 
+@media (max-width: 850px) {
+    section {
+        width: 90%;
+    }
+
+    .section-image img {
+        height: 100%;
+        margin-top: auto;
+    }
+}
