@@ -64,13 +64,15 @@ body {
 
 @media (max-width: 480px) {
     .logo-top {
-        margin: 1rem;
+        margin: 2rem;
+        font-size: 2rem;
     }
 
     .btn-1 {
-        margin: 1rem;
-        width: 30%;
+        margin: 2rem auto 2rem auto;
+        width: 45%;
         height: 4.2vh;
+        font-size: 0.9rem;
     }
 }
 
