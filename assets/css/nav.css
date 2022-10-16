@@ -62,4 +62,16 @@ body {
 }
 
 
+@media (max-width: 480px) {
+    .logo-top {
+        margin: 1rem;
+    }
+
+    .btn-1 {
+        margin: 1rem;
+        width: 30%;
+        height: 4.2vh;
+    }
+}
+
 
