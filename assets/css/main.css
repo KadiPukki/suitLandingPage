@@ -85,3 +85,29 @@ main {
         text-transform: uppercase;
     }
 }
+
+@media (max-width: 820px) {
+
+    main {
+        justify-content: center;
+    }
+    
+    .text-2 {
+        display: none;
+    }
+
+    .text-1 {
+        width: 40%;
+        position:relative;
+    }
+
+    .image {
+        width: 50%;
+    }
+
+    .btn-2 {
+        width: 50%;
+        font-size: 0.7rem;
+    }
+
+}
