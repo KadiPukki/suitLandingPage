@@ -56,36 +56,43 @@ body {
 @media (max-width: 1024px) {
 
     .btn {
-        font-size: 0.5rem;
+        font-size: 0.8rem;
     }
     
 }
 
 @media (max-width: 820px) {
     .logo-top {
-        margin: 4rem;
-        font-size: 3rem;
+        margin: 2rem;
+        font-size: 2.5rem;
     }
 
     .btn-1 {
         width: 30%;
-        margin: 4rem 2rem 4rem auto;
+        margin: 2rem 10rem auto auto;
         font-size: 1.2rem;
     }
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .logo-top {
         margin: 2rem;
         font-size: 2rem;
     }
 
     .btn-1 {
-        margin: 2.5rem auto 2rem auto;
-        width: 45%;
-        height: 4.2vh;
+        margin: 2rem 4rem 2rem auto;
+        width: 30%;
+        height: 7vh;
         font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn-1 {
+        font-size: 0.6rem;
+        height: 5vh;
     }
 }
 
