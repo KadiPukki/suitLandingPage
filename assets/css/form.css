@@ -4,7 +4,7 @@
 
 .modal {
     width: 30%;
-    height: 40vh;
+    height: 45vh;
     background-color: var(--light-beige);
     color: var(--dark-blue);
     display: flex;
@@ -23,7 +23,7 @@
     width: 10%;
     margin-left: 25vw;
     margin-top: 1vh;
-    position: absolute;
+    position: relative;
     font-size: 2rem;
     background-color: var(--beige);
     color: var(--dark-blue);
@@ -42,4 +42,14 @@
 #email {
     width: 80%;
     height: 6vh;
+}
+
+@media (max-width: 768px) {
+    .modal {
+        width: 50%;
+    }
+
+    .close {
+        margin-left: 40vw;
+    }
 }

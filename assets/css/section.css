@@ -57,3 +57,13 @@ section {
         margin-top: auto;
     }
 }
+
+@media (max-width: 768px) {
+    .section-image img {
+        display: none;
+    }
+
+    .section-content {
+        width: 80%;
+    }
+}
